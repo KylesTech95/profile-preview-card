@@ -12,6 +12,7 @@ const drive = (data) => {
     var mouse = { x: undefined, y: undefined };
     var mouse_display = document.querySelector('.mouse-dis');
     var stat = document.querySelector('i');
+    
     //add data to the card
     add_picture()
     lname.innerHTML = name_data.last.slice(0, 1) + '.'
