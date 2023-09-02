@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.ky-container{
+    width: 300px;
+    height: 420px;
+    box-shadow: 0 0 6px .05px rgb(180, 180, 195);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    overflow: hidden;
+}
+.status-actual{
+    font-size: 18px;
+    float: right;
+    padding: 1rem 1rem 0 0
+}
+.address,
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+}
+.address{
+    width: 200px;
+    text-align: center;
+}
+.name{
+    font-weight:400;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.img-div{
+background: rgba(221, 200, 78, 0.808);
+border-radius: 50%;
+height: 145px;
+width: 160px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+border: none;
+}
+.img-actual{
+    height: 140px;
+    width: 150px;
+    border-radius: 50%;
+}
+.mouse-dis{
+    padding: 1rem 1.5rem;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 12px;
+}
+.fa-circle{
+    margin-left: 8px;
+}
+hr{
+    width: 100%;
+    margin: 0 auto;
+}
+.i-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.i-container>i{
+transition: 2s ease;
+}
+.i-container>i:hover{
+    color: gray;
+    transition: .3s ease;
+    cursor: pointer;
+}
+

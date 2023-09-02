@@ -1,0 +1,13 @@
+[{
+    "people":{
+        "id":1,
+        "first":"Stephanie",
+        "last":"Grant",
+        "address":"1234 Nowhere Ter",
+        "city":"Golfington",
+        "state":"AL",
+        "zip":12345,
+        "online":false,
+        "photo":"Stephanie.jpeg"
+    }
+}]

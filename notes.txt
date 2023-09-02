@@ -1,0 +1,19 @@
+const color_stat={
+                    true:'green',
+                    false:'red',
+                    null:'grey'
+                }
+                
+if ((isLess_y(mouse.y, bg_H, bg_Y) && isMore_y(mouse.y, bg_Y)) && (isLess_x(mouse.x, bg_W, bg_X) && isMore_x(mouse.x, bg_X))) {
+                stat.style = `color: ${color_stat[name_data.online]}; transition: .3s ease;`
+                img.style = 'transition: .2s ease;box-shadow: 0 0 6px .15px ghostwhite;'
+                mouse_display.style = "background: green;opacity:.8;transition:.3s ease;"
+                pic_bg.style = `transition: .3s ease;transform: rotate(${(mouse_x()+mouse_y())}deg) scale(.98);cursor:pointer;width:170px;`;
+            }
+            else {
+                stat.style = `color: ${color_stat['null']}; transition: .2s ease;`
+                pic_bg.style = `transition: .2s ease;transform: none; background: rgb(184, 174, 174); width: 160px;)`
+                mouse_display.style = "background: red;opacity:.8;transition:.2s ease;"
+                img.style = 'transition: .2s ease;box-shadow: 0 0 6px .2px ghostwhite;'
+
+            }
