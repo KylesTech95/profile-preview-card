@@ -81,7 +81,8 @@ hr{
     padding: 0 1.5rem;
 }
 .i-container>i{
-transition: 2s ease;
+transition: .3s ease;
+font-size: 22px;
 }
 .i-container>i:hover{
     color: gray;
